@@ -137,7 +137,7 @@ const App: React.FC = () => {
         iModelId={iModelId}
         authClient={authClient}
         viewCreatorOptions={viewCreatorOptions}
-        enablePerformanceMonitors={true} // see description in the README (https://www.npmjs.com/package/@itwin/desktop-viewer-react)
+        enablePerformanceMonitors={true} // see description in the READ ME (https://www.npmjs.com/package/@itwin/desktop-viewer-react)
         theme="dark"
       />
     </div>
