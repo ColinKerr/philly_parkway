@@ -16,6 +16,7 @@ import {
   ViewerPerformance,
 } from "@itwin/web-viewer-react";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
+import { Banana } from "./providers/Banana";
 
 import { history } from "./history";
 
@@ -139,6 +140,7 @@ const App: React.FC = () => {
         viewCreatorOptions={viewCreatorOptions}
         enablePerformanceMonitors={true} // see description in the READ ME (https://www.npmjs.com/package/@itwin/desktop-viewer-react)
         theme="dark"
+        uiProviders={[new Banana()]}
       />
     </div>
   );
