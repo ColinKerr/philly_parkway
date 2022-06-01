@@ -19,7 +19,7 @@ export class Banana implements UiItemsProvider {
 
     widgets.push({
       id: "bananaWidget",
-      label: "BANANA!!!!",
+      label: "Site deployed!!",
       getWidgetContent: () => (
         <div>
           <MyFirstWidget />

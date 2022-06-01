@@ -25,7 +25,7 @@ export const MyFirstWidget: React.FC = () => {
 
   return (
     <div>
-      Hello World!!!
+      This is my first widget
     </div>
   );
 };
